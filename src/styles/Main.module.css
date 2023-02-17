@@ -1,0 +1,261 @@
+.hero {
+    background: url("https://res.cloudinary.com/dnlwovh4y/image/upload/v1676589609/indobild/bg_u296iu.png");
+}
+
+.hero-card {
+    background-color: white;
+    border-radius: 8px;
+    margin: 50px 0;
+    padding: 25px;
+}
+
+.hero-card h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #334553;
+}
+
+.category, .location, .date {
+    margin-top: 30px;
+}
+
+.category:hover, .date:hover {
+    cursor: pointer;
+}
+
+.category h5, .location h5, .date h5 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(51, 51, 51, 0.75);
+    margin-bottom: 10px;
+}
+
+.category-dropdown {
+    background: #FFFFFF;
+    border: 1px solid #93999D;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.category-dropdown p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #93999D;
+}
+
+.category-dropdown i {
+    color: #AC58D4;
+    font-size: 10px;
+}
+
+.location-bar {
+    background: #FFFFFF;
+    border: 1px solid #93999D;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.location-bar i {
+    font-size: 14px;
+    color: #93999D;
+}
+
+.location-bar input {
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    min-width: fit-content;
+}
+
+.location-bar input::-webkit-input-placeholder {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #93999D;
+}
+
+.date-bar {
+    background: #FFFFFF;
+    border: 1px solid #93999D;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.date-bar i {
+    color: #AC58D4;
+    font-size: 10px;
+}
+
+.date-title {
+    display: flex;
+    align-items: center;
+}
+
+.date-title i {
+    font-size: 14px;
+    color: #93999D;
+}
+
+.date-title p {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #93999D;
+}
+
+.input-btn {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.input-btn button {
+    width: 100%;
+    border: none;
+    background: #FF843E;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.hero-content {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.event-highlight {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    overflow-x: scroll;
+}
+
+.left-btn, .right-btn {
+    position: absolute;
+    width: fit-content;
+    background-color: white;
+    padding: 2px 8px 1px;
+    top: 10px;
+    right: 10px;
+    border-radius: 100%;
+}
+
+.left-btn {
+    z-index: 5;
+    top: 50%;
+    left: 0;
+}
+
+.right-btn {
+    z-index: 5;
+    top: 50%;
+    right: 0;
+}
+
+.left-btn:hover, .right-btn:hover {
+    cursor: pointer;
+}
+
+.left-btn i, .right-btn i {
+    color: #FF843E;
+}
+
+.event-highlight::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 8px;
+    max-width: fit-content;
+    border: 1px solid #E6E6E6;
+}
+
+.card-img img{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.favorite-bar {
+    position: absolute;
+    width: fit-content;
+    background-color: white;
+    padding: 2px 5px 1px;
+    top: 10px;
+    right: 10px;
+    border-radius: 100%;
+}
+
+.favorite-bar i {
+    color: #93999D;
+}
+
+.card-content {
+    padding: 30px 20px;
+}
+
+.card-name h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334553;
+    margin-bottom: 5px;
+}
+
+.card-date p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334553;
+    margin-bottom: 5px;
+}
+
+.card-address p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #93999D;
+    margin-bottom: 5px;
+}
+
+.event h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #334553;
+    margin: 30px 0;
+}
+
+.event-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
